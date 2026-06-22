@@ -1,0 +1,22 @@
+[
+    {"prompt": "Create a todo app with user authentication", "expected": "auth_required"},
+    {"prompt": "Build a blog with posts and comments", "expected": "entities: Post, Comment"},
+    {"prompt": "Design an e-commerce platform with product catalog, shopping cart, and checkout", "expected": "entities: Product, Cart, Order"},
+    {"prompt": "Create a social media app with user profiles, posts, likes, and follows", "expected": "entities: User, Post, Like, Follow"},
+    {"prompt": "Build a task management system with projects, tasks, and team collaboration", "expected": "entities: Project, Task, Team"},
+    {"prompt": "Design a real-time chat application with rooms and messages", "expected": "entities: Room, Message, User"},
+    {"prompt": "Create a restaurant reservation system with tables, bookings, and menus", "expected": "entities: Table, Booking, Menu"},
+    {"prompt": "Build a learning management system with courses, lessons, and student progress", "expected": "entities: Course, Lesson, Student"},
+    {"prompt": "Design a fitness tracking app with workouts, exercises, and progress metrics", "expected": "entities: Workout, Exercise, Progress"},
+    {"prompt": "Create a project management tool with sprints, tasks, and burndown charts", "expected": "entities: Sprint, Task, Milestone"},
+    {"prompt": "Build a customer support system with tickets, agents, and knowledge base", "expected": "entities: Ticket, Agent, Article"},
+    {"prompt": "Design a booking system for appointments with reminders and notifications", "expected": "entities: Appointment, Notification, Customer"},
+    {"prompt": "Create a file sharing platform with folders, files, and sharing permissions", "expected": "entities: Folder, File, Permission"},
+    {"prompt": "Build a subscription service with plans, billing, and usage tracking", "expected": "entities: Plan, Subscription, Invoice"},
+    {"prompt": "Design a content management system with pages, articles, and categories", "expected": "entities: Page, Article, Category"},
+    {"prompt": "Create a reporting dashboard with charts, filters, and export options", "expected": "entities: Chart, Report, Filter"},
+    {"prompt": "Build an inventory management system with products, suppliers, and orders", "expected": "entities: Product, Supplier, Order"},
+    {"prompt": "Design a poll/voting application with questions, options, and results", "expected": "entities: Question, Option, Vote"},
+    {"prompt": "Create a recipe app with ingredients, instructions, and meal planning", "expected": "entities: Recipe, Ingredient, MealPlan"},
+    {"prompt": "Build a time tracking tool with projects, entries, and reports", "expected": "entities: Project, TimeEntry, Report"}
+]

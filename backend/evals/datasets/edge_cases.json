@@ -1,0 +1,12 @@
+[
+    {"prompt": "", "type": "vague", "expected_error": "empty prompt"},
+    {"prompt": "Make something", "type": "incomplete", "expected_error": "too vague"},
+    {"prompt": "I want", "type": "incomplete", "expected_error": "insufficient detail"},
+    {"prompt": "Build it", "type": "incomplete", "expected_error": "no specification"},
+    {"prompt": "Hello world", "type": "ambiguous", "expected_error": "unclear intent"},
+    {"prompt": "Create", "type": "incomplete", "expected_error": "missing entity"},
+    {"prompt": "App", "type": "incomplete", "expected_error": "no context"},
+    {"prompt": "Something cool", "type": "vague", "expected_error": "too vague"},
+    {"prompt": "Need a thing", "type": "incomplete", "expected_error": "no specification"},
+    {"prompt": "Make a tool for users", "type": "ambiguous", "expected_error": "unclear requirements"}
+]
