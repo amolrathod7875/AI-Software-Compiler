@@ -4,7 +4,7 @@ from app.pipeline.stage1_intent import extract_intent
 from app.pipeline.stage2_design import generate_design
 from app.pipeline.stage3_schema import generate_schema
 from app.pipeline.stage4_refinement import refine_config
-from app.evals.metrics_tracker import MetricsTracker
+from evals.metrics_tracker import MetricsTracker
 import time
 
 router = APIRouter()
